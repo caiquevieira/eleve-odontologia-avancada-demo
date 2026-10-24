@@ -1,0 +1,24 @@
+# Eleve Odontologia Avançada
+
+> Clínica odontológica na Av. dos Autonomistas, 896, Vila Yara, Osasco (SP), CEP 06020-010. Atende estética do sorriso, reabilitação oral, harmonização orofacial, ortodontia e ortopedia, odontopediatria e prevenção. Agendamento de avaliação pelo WhatsApp (11) 96018-5071.
+
+## Dados da clínica
+
+- Endereço: Av. dos Autonomistas, 896 - Vila Yara, Osasco - SP, 06020-010
+- Horário: segunda a sexta, 9h às 21h; sábado, 10h às 14h; domingo, fechado
+- WhatsApp: (11) 96018-5071 (https://wa.me/5511960185071)
+- Instagram: https://www.instagram.com/dr.guilhermelopes_/
+
+## Tratamentos
+
+- Estética do sorriso: lentes de porcelana, lentes de resina, restaurações estéticas em resina, clareamento caseiro
+- Reabilitação oral: implantes, cirurgia, prótese fixa, prótese parcial removível, prótese total
+- Harmonização orofacial: harmonização orofacial, toxina botulínica (botox)
+- Ortodontia e ortopedia: ortodontia (aparelhos), ortopedia funcional dos maxilares
+- Odontopediatria: atendimento infantil
+- Prevenção e saúde: limpeza (profilaxia), tratamento da gengiva (periodontia), tratamento de canal (endodontia)
+
+## Páginas
+
+- [Página inicial](https://{{DOMINIO}}/): tratamentos, a clínica, galeria, localização e horários
+- [Política de Privacidade](https://{{DOMINIO}}/politica-de-privacidade.html)

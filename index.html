@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eleve Odontologia Avançada | Dentista em Osasco</title>
+  <title>Dentista em Osasco, Vila Yara | Eleve Odontologia Avançada</title>
   <meta name="description" content="Clínica odontológica na Vila Yara, em Osasco: lentes, implantes, ortodontia, harmonização e cuidado para toda a família. Agende sua avaliação.">
   <link rel="canonical" href="https://{{DOMINIO}}/">
   <meta name="theme-color" content="#000000">
@@ -18,54 +18,282 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Eleve Odontologia Avançada">
-  <meta property="og:title" content="Eleve Odontologia Avançada | Dentista em Osasco">
+  <meta property="og:title" content="Dentista em Osasco, Vila Yara | Eleve Odontologia Avançada">
   <meta property="og:description" content="Clínica odontológica na Vila Yara, em Osasco: lentes, implantes, ortodontia, harmonização e cuidado para toda a família. Agende sua avaliação.">
   <meta property="og:url" content="https://{{DOMINIO}}/">
   <meta property="og:image" content="https://{{DOMINIO}}/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo da Eleve Odontologia Avançada sobre fundo preto">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=202610232103">
-  <script src="assets/js/main.js?v=202610232103" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css?v=202610240040">
+  <script src="assets/js/main.js?v=202610240040" defer></script>
 
   <!-- Ajustar @type e os horários conforme o briefing (dias sem expediente: remover o bloco) -->
+  <!-- GEO: @graph com @id estáveis para buscadores e IAs ligarem clínica, site e página. Só dados do briefing. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Dentist",
-    "name": "Eleve Odontologia Avançada",
-    "url": "https://{{DOMINIO}}/",
-    "image": "https://{{DOMINIO}}/assets/img/og-image.jpg",
-    "logo": "https://{{DOMINIO}}/assets/img/logo.webp",
-    "telephone": "+5511960185071",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Av. dos Autonomistas, 896 - Vila Yara",
-      "addressLocality": "Osasco",
-      "addressRegion": "SP",
-      "postalCode": "06020-010",
-      "addressCountry": "BR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": {{LATITUDE}},
-      "longitude": {{LONGITUDE}}
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "21:00"
+        "@type": "WebSite",
+        "@id": "https://{{DOMINIO}}/#website",
+        "url": "https://{{DOMINIO}}/",
+        "name": "Eleve Odontologia Avançada",
+        "inLanguage": "pt-BR",
+        "publisher": {
+          "@id": "https://{{DOMINIO}}/#clinica"
+        }
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "10:00",
-        "closes": "14:00"
+        "@type": "WebPage",
+        "@id": "https://{{DOMINIO}}/#pagina",
+        "url": "https://{{DOMINIO}}/",
+        "name": "Dentista em Osasco, Vila Yara | Eleve Odontologia Avançada",
+        "description": "Clínica odontológica na Vila Yara, em Osasco: lentes, implantes, ortodontia, harmonização e cuidado para toda a família. Agende sua avaliação.",
+        "inLanguage": "pt-BR",
+        "isPartOf": {
+          "@id": "https://{{DOMINIO}}/#website"
+        },
+        "about": {
+          "@id": "https://{{DOMINIO}}/#clinica"
+        }
+      },
+      {
+        "@type": "Dentist",
+        "@id": "https://{{DOMINIO}}/#clinica",
+        "name": "Eleve Odontologia Avançada",
+        "description": "Clínica odontológica na Av. dos Autonomistas, Vila Yara, Osasco (SP), com estética do sorriso, reabilitação oral, harmonização orofacial, ortodontia e ortopedia, odontopediatria e prevenção.",
+        "url": "https://{{DOMINIO}}/",
+        "image": "https://{{DOMINIO}}/assets/img/og-image.jpg",
+        "logo": "https://{{DOMINIO}}/assets/img/logo.webp",
+        "telephone": "+5511960185071",
+        "medicalSpecialty": "https://schema.org/Dentistry",
+        "areaServed": {
+          "@type": "City",
+          "name": "Osasco"
+        },
+        "availableLanguage": "pt-BR",
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Av.%20dos%20Autonomistas%2C%20896%20-%20Vila%20Yara%2C%20Osasco%20-%20SP",
+        "knowsAbout": [
+          "Lentes de porcelana",
+          "Lentes de resina",
+          "Restaurações estéticas em resina",
+          "Clareamento caseiro",
+          "Implantes dentários",
+          "Cirurgia oral",
+          "Prótese fixa",
+          "Prótese parcial removível",
+          "Prótese total",
+          "Harmonização orofacial",
+          "Toxina botulínica",
+          "Ortodontia",
+          "Ortopedia funcional dos maxilares",
+          "Odontopediatria",
+          "Profilaxia",
+          "Periodontia",
+          "Endodontia"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Tratamentos",
+          "itemListElement": [
+            {
+              "@type": "OfferCatalog",
+              "name": "Estética do sorriso",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Lentes de porcelana"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Lentes de resina"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Restaurações estéticas em resina"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Clareamento caseiro"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Reabilitação oral",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Implantes"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Cirurgia"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Prótese fixa"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Prótese parcial removível"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Prótese total"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Harmonização orofacial",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Harmonização orofacial"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Toxina botulínica (botox)"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Ortodontia e ortopedia",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Ortodontia"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Ortopedia funcional dos maxilares"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Odontopediatria",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Atendimento infantil"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Prevenção e saúde",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Limpeza (profilaxia)"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Periodontia"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Tratamento de canal (endodontia)"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. dos Autonomistas, 896 - Vila Yara",
+          "addressLocality": "Osasco",
+          "addressRegion": "SP",
+          "postalCode": "06020-010",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "{{LATITUDE}}",
+          "longitude": "{{LONGITUDE}}"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "21:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "14:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/dr.guilhermelopes_/"
+        ]
       }
-    ],
-    "sameAs": ["https://www.instagram.com/dr.guilhermelopes_/"]
+    ]
   }
   </script>
 </head>
@@ -109,8 +337,11 @@
 <section id="inicio" aria-labelledby="hero-titulo">
   <div class="container-lp grid gap-12 pt-12 pb-16 md:pt-20 md:pb-24 lg:grid-cols-[1.15fr_1fr] lg:items-center lg:gap-16">
     <div>
-      <p class="eyebrow">Vila Yara, Osasco</p>
-      <h1 id="hero-titulo" class="titulo mt-6 text-[2rem] sm:text-5xl lg:text-[3.5rem]">Planejamos cada detalhe do seu sorriso</h1>
+      <!-- SEO: o eyebrow fica dentro do h1 para o título levar serviço e local sem mudar o visual -->
+      <h1 id="hero-titulo">
+        <span class="eyebrow block">Clínica odontológica · Vila Yara, Osasco</span>
+        <span class="titulo mt-6 block text-[2rem] sm:text-5xl lg:text-[3.5rem]">Planejamos cada detalhe do seu sorriso</span>
+      </h1>
       <p class="mt-7 max-w-[34rem] text-lg leading-relaxed text-texto-suave md:text-xl">Do cuidado de rotina à transformação do sorriso: estética, implantes e tratamento completo para toda a família, no mesmo endereço.</p>
       <div class="mt-10 flex flex-wrap gap-3">
         <a href="https://wa.me/5511960185071?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"
@@ -229,7 +460,7 @@
     <div>
       <p class="eyebrow">A clínica</p>
       <h2 id="sobre-titulo" class="titulo mt-5 text-[1.625rem] md:text-[2.25rem]">Seis áreas da odontologia em um só endereço</h2>
-      <p class="mt-6 max-w-[34rem] text-lg leading-relaxed text-texto-suave">Da limpeza ao implante, a Eleve reúne estética, reabilitação, harmonização, ortodontia, odontopediatria e prevenção na Av. dos Autonomistas, na Vila Yara.</p>
+      <p class="mt-6 max-w-[34rem] text-lg leading-relaxed text-texto-suave">Da limpeza ao implante, a Eleve reúne estética, reabilitação, harmonização, ortodontia, odontopediatria e prevenção na Av. dos Autonomistas, 896, na Vila Yara, em Osasco (SP).</p>
       <p class="mt-4 max-w-[34rem] text-lg leading-relaxed text-texto-suave">Tudo começa por uma avaliação, para você entender cada etapa antes de decidir.</p>
     </div>
   </div>
