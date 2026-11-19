@@ -1,7 +1,7 @@
 /* Configuração do projeto: preencher a partir do briefing.md.
    IDs vazios = nenhum script de terceiros é carregado e o banner de cookies não aparece. */
 const CONFIG = {
-  ga4Id: '', // ex.: 'G-XXXXXXXXXX'
+  ga4Id: 'G-RB8N50QTGB', // ex.: 'G-XXXXXXXXXX'
   metaPixelId: '', // ex.: '123456789012345'
 };
 
@@ -12,6 +12,7 @@ const EVENTOS = {
   whatsapp: { ga: 'generate_lead', gaParams: { method: 'whatsapp' }, meta: 'Contact' },
   instagram: { ga: 'click_instagram' },
   'avaliar-google': { ga: 'click_avaliar_google' },
+  'perfil-google': { ga: 'click_perfil_google' },
   'como-chegar': { ga: 'click_como_chegar', meta: 'FindLocation' },
 };
 

@@ -1,24 +1,25 @@
 # Eleve Odontologia Avançada
 
-> Clínica odontológica na Av. dos Autonomistas, 896, Vila Yara, Osasco (SP), CEP 06020-010. Atende estética do sorriso, reabilitação oral, harmonização orofacial, ortodontia e ortopedia, odontopediatria e prevenção. Agendamento de avaliação pelo WhatsApp (11) 96018-5071.
+> Clínica odontológica na Av. dos Autonomistas, 896, Vila Yara, Osasco (SP), CEP 06020-010. Atende estética do sorriso, reabilitação oral, harmonização orofacial, ortodontia e ortopedia, odontopediatria e prevenção. Agendamento de avaliação pelo WhatsApp (11) 94708-7113.
 
 ## Dados da clínica
 
-- Endereço: Av. dos Autonomistas, 896 - Vila Yara, Osasco - SP, 06020-010
+- Endereço: Av. dos Autonomistas, 896, Torre 2 Santorini, sala 2304 - Vila Yara, Osasco - SP, 06020-010
 - Horário: segunda a sexta, 9h às 21h; sábado, 10h às 14h; domingo, fechado
-- WhatsApp: (11) 96018-5071 (https://wa.me/5511960185071)
-- Instagram: https://www.instagram.com/dr.guilhermelopes_/
+- WhatsApp: (11) 94708-7113 (https://wa.me/5511947087113)
+- Instagram: https://www.instagram.com/eleve.osasco/
+- Perfil no Google: https://share.google/f273jpF4G5EEc3lOR
 
 ## Tratamentos
 
-- Estética do sorriso: lentes de porcelana, lentes de resina, restaurações estéticas em resina, clareamento caseiro
-- Reabilitação oral: implantes, cirurgia, prótese fixa, prótese parcial removível, prótese total
-- Harmonização orofacial: harmonização orofacial, toxina botulínica (botox)
+- Estética do sorriso: lentes de porcelana, lentes de resina, restaurações estéticas em resina, clareamento profissional
+- Reabilitação oral: implantes, cirurgias (extração de dentes, inclusive do siso, enxerto ósseo, levantamento de seio maxilar e frenectomia), prótese fixa, prótese parcial removível, prótese total
+- Harmonização orofacial: harmonização orofacial, toxina botulínica, preenchimento labial
 - Ortodontia e ortopedia: ortodontia (aparelhos), ortopedia funcional dos maxilares
 - Odontopediatria: atendimento infantil
-- Prevenção e saúde: limpeza (profilaxia), tratamento da gengiva (periodontia), tratamento de canal (endodontia)
+- Prevenção e saúde: limpeza (profilaxia), tratamento da gengiva (periodontia), tratamento de canal (endodontia) em sessão única, quando indicado
 
 ## Páginas
 
-- [Página inicial](https://{{DOMINIO}}/): tratamentos, a clínica, galeria, localização e horários
-- [Política de Privacidade](https://{{DOMINIO}}/politica-de-privacidade.html)
+- [Página inicial](https://eleveodontologiasp.com.br/): tratamentos, a clínica, galeria, localização e horários
+- [Política de Privacidade](https://eleveodontologiasp.com.br/politica-de-privacidade.html)
